@@ -11,12 +11,16 @@ $(document).ready(function() {
 
     prevArrow: `
       <button type="button" class="slick-prev">
-        <img src="./images/icons/left.svg">
+        <span>
+          <<
+        </span>
       </button>
     `,
     nextArrow: `
       <button type="button" class="slick-next">
-        <img src="./images/icons/right.svg">
+        <span>
+          >>
+        </span>
       </button>
     `,
     responsive: [
